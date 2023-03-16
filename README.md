@@ -25,7 +25,15 @@ FastAPI is a high-performance framework created by the Colombian Sebastian Ramir
 3. **Execution**
 ```bash
   - uvicorn main:app --reload
+  - uvicorn main:app --reload --port 5000 --host 0.0.0.0
   
 ```
+## Automatic Documentation With Swagger
 
+
+The automatic documentation describes each of the endpoints that the application has.
+To access this documentation we must add "/docs" to the main url:
+
+```bash
+  http://127.0.0.1:5000/docs
 ![Logo](https://user-images.githubusercontent.com/107004251/225199464-f5c959c1-02a1-4ab2-a106-2018c06c540a.jpeg)
