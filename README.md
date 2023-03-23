@@ -42,5 +42,12 @@ To access this documentation we must add "/docs" to the main url:
   - @app.get('/movies', tags = ['movies'])
 
 ```
+## QUERY parameters
+They are a string of key and values that allow the search action to be further extended. Its structure is composed of: url, ?, key, =, value. An explample is shown
+
+```bash
+  - http://127.0.0.1:5000/movies/?category=acci%C3%B3n
+  
+```
 
 ![Logo](https://user-images.githubusercontent.com/107004251/225199464-f5c959c1-02a1-4ab2-a106-2018c06c540a.jpeg)
